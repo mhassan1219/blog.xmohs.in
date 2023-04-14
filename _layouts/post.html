@@ -13,7 +13,12 @@ layout: default
     <p class="post-meta">
         <span>#{{ page.slug }}</span><br/>
         <span>Author: {{ page.author }}</span><br/>
-        <span>Topic: {{ page.tags }}</span><br/>
+        <span>Topic: 
+          {% for tag in page.tags %}
+          {{ tag }}
+          {% unless forloop.last %}-{% endunless %}
+          {% endfor %}
+        </span><br/>
         <span>Date: {{ page.date }}</span><br/>
     </p>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
