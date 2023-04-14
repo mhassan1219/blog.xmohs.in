@@ -9,7 +9,7 @@ cover         : "/assets/img/cover.png" # image uri like logo/cover image for si
 twitter_username: "shutupmohsin"
 
 # Build settings
-permalink   : bugs/:slug
+permalink   : blog/:slug
 markdown    : kramdown
 highlighter : rouge
 
