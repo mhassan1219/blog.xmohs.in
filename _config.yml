@@ -16,10 +16,10 @@ highlighter : rouge
 source      : ./
 destination : ./_site
 
-# Sass configuration
+# Sass settings
 sass:
-  sass_dir  : assets/scss
-  style     : compressed # expanded
+  sass_dir: assets/scss
+  style: compressed
 
 # Author settings
 author:
