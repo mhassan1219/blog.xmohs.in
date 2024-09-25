@@ -3,17 +3,15 @@ layout: compress
 published: true
 ---
 <!DOCTYPE html>
-<html>
-<head>
-    {% include head.html %}
-</head>
+<html lang="en">
+{% include head.html %}
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5R897HJX"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
-    <main class="wrapper">
+
+    <main class="wrapper" role="main">
         {% include header.html %}
         {{ content }}
     </main>
