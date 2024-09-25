@@ -4,6 +4,9 @@
 
 @charset "utf-8";
 
+// Import variables first
+@import "../scss/variables";
+
 // Import bourbon
 @import "../scss/bourbon/bourbon";
 
@@ -17,7 +20,6 @@
 @import "../scss/base/typography";
 
 // Import other partials
-@import "../scss/variables";
 @import "../scss/layout";
 @import "../scss/syntax-highlighting";
 
